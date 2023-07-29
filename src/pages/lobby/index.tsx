@@ -60,130 +60,167 @@ const Lobby = () => {
                                 </div>
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
                             <div className={styles.box}>
-                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp' 
-                                style={{opacity: "0.5;", cursor: "not-allowed"}}
+                                <img alt='dp' src='https://cryptoduels.gq/pfp/frames/frame_20.webp'
+                                    style={{ opacity: "0.5;", cursor: "not-allowed" }}
                                 />
                             </div>
-                            
                         </div>
                     </div>
                 </div>
-                <div className={styles.right}>Right Div</div>
+                <div className={styles.right}>
+                    <p className={styles.heading}>SELECT TICKETS</p>
+                    <div className={styles.buy}>
+                        <div className={styles.editBuy}>
+                            <input min="1" step="1" maxLength={6} value="1" />
+                        </div>
+                    </div>
+                    <p className={styles.priceText}>85 GQ + 100.14 GQ (Relayer + BSC fees) = 185.14 GQ</p>
+                    <button className={styles.thirdBtn}>BUY 1 TICKETS</button>
+                    <p className={styles.heading}>SELECT ENTRY TICKETS</p>
+                    <div className={styles.selectContainer}>
+                        <div className={styles.select}>1<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"></path>
+                        </svg>
+                        </div>
+                        <div className={styles.options} style={{ "display": "none;" }}>
+                            <div className={styles.opt}>1</div>
+                            <div className={styles.opt}>3</div>
+                            <div className={styles.opt}>5</div>
+                            <div className={styles.opt}>7</div>
+                            <div className={styles.opt}>10</div>
+                            <div className={styles.opt}>12</div>
+                            <div className={styles.opt}>15</div>
+                            <div className={styles.opt}>20</div>
+                        </div>
+                    </div>
+                    <div className={styles.gameMode}>
+                        <p>SELECT GAME MODE</p>
+                        <div className={styles.buttons}>
+                            <button className={styles.selected}>1 vs 1</button>
+                            <button className={styles.false}>1 vs 5</button>
+                        </div>
+                    </div>
+                    <div className={styles.thirdBtn}>
+                        <button className={styles.inviteBtn} style={{ marginTop: "10px;", height: "40px;" }}>PLAY WITH FRIENDS</button>
+                    </div>
+                    <div className={styles.startBtn}>
+                        <button className={styles.mainBtn}>START DUEL!</button>
+                    </div>
+                </div>
             </div>
         </Layout>
     )

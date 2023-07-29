@@ -29,18 +29,18 @@
 .left,
 .middle,
 .right {
-    padding: 20px;
-    margin: 10px;
     /* Optional: Add some margin between divs */
 }
 
 .left {
-
+    flex: 1 1;
+    height: 100%;
+    padding: 1rem;
     // background-color: #ff9999;
 }
 
 .middle {
-    @media (max-width: 620px) {
+    @media (max-width: 900px) {
         display: none;
     }
     // padding-top: 1rem;
@@ -51,12 +51,24 @@
 }
 
 .right {
+    flex: 1 1;
+    height: 100%;
+    padding: 1rem;
     // background-color: #9999ff;
+}
+
+.container .left {
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .playerCard {
     position: relative;
-
+    justify-content: center;
     @media (max-width: 620px) {
         display: flex;
         flex-direction: row;
@@ -69,8 +81,7 @@
     }
 }
 
-.playerCard .dp,
-.playerCard .playerSearch {
+.playerCard .dp {
     height: 170px;
     width: 170px;
     color: #000;
@@ -177,18 +188,19 @@
 .container .left .disconnectBtn {
     height: 45px !important;
     width: 210px !important;
-    position: absolute;
+    position: relative;
     font-size: 1.6rem;
-    bottom: calc(0px + 3.2rem);
+    bottom: calc(2px - 17rem);
     width: calc(100% - 2rem);
     @media (max-width: 620px) {
-        bottom: calc(0px + 7rem);
+        position: absolute;
+        bottom: calc(0px + 1rem);
 
     }
 }
 
 .pfpBtn {
-    @media (min-width: 621px) {
+    @media (min-width: 900px) {
         display: none;
 
     }
@@ -198,7 +210,7 @@
     width: 210px!important;
     position: absolute;
     font-size: 1.6rem;
-    bottom: calc(0px + 0.7rem);
+    bottom: calc(0px + 1rem);
     width: calc(100% - 2rem);
 }
 
@@ -208,7 +220,7 @@
     align-items: center;
     position: relative;
     flex-direction: column;
-    margin-top: 72px;
+    margin-top: 30px;
     color: #feecb6;
     @media (max-width: 620px) {
         margin-top: 22px;
@@ -299,7 +311,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     flex-direction: column;
 }
 .leaderBoardArea button {
@@ -320,7 +332,7 @@
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 300px;
+    width: 370px;
     background: #530420;
     font-family: oswald;
     font-size: 1.8rem;
@@ -388,4 +400,265 @@
     transition: .1s;
     will-change: transform;
     
+}
+
+
+
+// right
+
+.container .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 200;
+}
+.container .middle, .container .right {
+    flex: 1 1;
+    height: 100%;
+    padding: 1rem;
+}
+
+.container .right .heading {
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+.container .right .buy {
+    height: 40px;
+    width: 80%;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 200;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .right .buy .editBuy {
+    width: 170px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .right .buy .editBuy:after {
+    position: absolute;
+    content: "";
+    background-image: url(/edit-icon.png);
+    background-position: 50%;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    right: 7px;
+    bottom: 10px;
+    z-index: 5;
+}
+.container .right .priceText {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.container .right .thirdBtn {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.thirdBtn:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    background: #fff;
+    border: 2px solid orange;
+    width: 100%;
+    box-shadow: inset 0 0 0.1em 0 orange, 0 0 0.1em 0 orange;
+}
+
+.lobby .container .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 200;
+}
+
+.container .right .heading {
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+
+.container .right .selectContainer {
+    position: relative;
+    width: 80%;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.container .right .selectContainer .select {
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    width: 100%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.container .right .selectContainer .options {
+    position: absolute;
+    border: 1px solid #fff;
+    border-top: unset;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 7px;
+}
+
+.container .right .selectContainer .options .opt {
+    height: 35px;
+    background: #000;
+    width: 100%;
+    transition: .2s;
+    font-size: 1.1rem;
+    color: #978b85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .right .gameMode {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.container .right .gameMode .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container .right .gameMode .buttons .selected {
+    background: #d5e3e9;
+    box-shadow: 0 0 5px 1px #fff;
+    color: #42565e;
+    border: 1px solid #fff;
+}
+
+.container .right .gameMode .buttons button {
+    width: 90px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: .2s;
+    font-family: oswald;
+    background: rgba(0,0,0,.5);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.container .right .inviteBtn {
+    margin-top: 20px!important;
+}
+
+.container .right .thirdBtn {
+    width: 80%;
+    // height: 40px;
+    // margin-top: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.container .right .startBtn {
+    display: flex;
+    height: 50px!important;
+    width: 100%!important;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    @media (max-width: 620px){  
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+.container .right .inviteBtn {
+    margin-top: 5px!important;
+}
+.container .right .buy {
+    height: 40px;
+    width: 80%;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 200;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .right .buy .editBuy input {
+    border: none;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-family: oswald;
+    padding: 0 30px 0 10px;
+    font-size: 1rem;
+    color: #fff!important;
+    font-weight: 200;
+    letter-spacing: .8px;
+    text-align: center;
+}
+
+.container .right .buy .editBuy:after {
+    position: absolute;
+    content: "";
+    background-image: url(https://cryptoduels.gq/edit-icon.png);
+    background-position: 50%;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    right: 7px;
+    bottom: 10px;
+    z-index: 5;
+}
+
+.middle .pfpContainer .scroll .box img {  
+  transition: transform .1s;
+}
+.middle .pfpContainer .scroll .box img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
 }
