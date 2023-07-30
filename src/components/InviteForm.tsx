@@ -80,7 +80,7 @@ const InviteForm: React.FC<InviteFormProps> = ({ createdLink }) => {
         setError('');
         setEmail(val)
     }
-    console.log(peopleList)
+    // console.log(peopleList)
 
     return (
         <div className="max-w-md mx-auto mt-10">
