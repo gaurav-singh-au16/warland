@@ -17,7 +17,7 @@ const Game = () => {
             gameUrl: url,
             status: 1
         }
-        axios.post('https://warland-backend.vercel.app/3000/api/join-game', data)
+        axios.post('https://warland-backend.vercel.app/api/join-game', data)
             .then(res => {
                 if (res.data.success) {
                     setTimeout(() => {
