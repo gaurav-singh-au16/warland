@@ -35,7 +35,7 @@ const InviteForm: React.FC<InviteFormProps> = ({ createdLink }) => {
                 gameUrl: createdLink,
 
             }
-            axios.post('http://localhost:3000/api/share-url', data)
+            axios.post('https://warland-backend.vercel.app/api/share-url', data)
             .then(res => {
                 if(res.data.success){
                     setMsg(res.data.data);
@@ -62,7 +62,7 @@ const InviteForm: React.FC<InviteFormProps> = ({ createdLink }) => {
     };
 
     const fetchAllPeople = () => {
-        axios.get('http://localhost:3000/api/get-user')
+        axios.get('https://warland-backend.vercel.app/api/get-user')
       .then(res => {
         if(res.data.success){
             setPeopleList(res.data.data);

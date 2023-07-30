@@ -7,7 +7,7 @@ const Invite: React.FC = () => {
 
     const [createdLink, setCreatedLink] = useState('')
     const credateUrl = () => {
-        axios.get('http://localhost:3000/api/create-url')
+        axios.get('https://warland-backend.vercel.app/api/create-url')
         .then(res => {
             if(res.data.success){
                 setCreatedLink(res.data.data)
